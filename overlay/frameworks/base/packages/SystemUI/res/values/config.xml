@@ -16,12 +16,14 @@
   -->
 
 <resources>
+<<<<<<< HEAD
     <!-- Defines the implementation of the velocity tracker to be used for the panel expansion. Can
          be 'platform' or 'noisy' (i.e. for noisy touch screens). -->
     <string name="velocity_tracker_impl" translatable="false">noisy</string>
 
     <!-- Show camera affordance on Keyguard -->
     <bool name="config_keyguardShowCameraAffordance">true</bool>
+3c25388... Enable Ambient Display
 
     <!-- Disable expensive shadows -->
     <bool name="config_recents_fake_shadows">true</bool>

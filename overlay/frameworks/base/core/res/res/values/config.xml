@@ -20,6 +20,7 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+<<<<<<< HEAD
     <!-- Software blur is too slow on this device. -->
     <bool name="config_sf_slowBlur">true</bool>
 
@@ -39,6 +40,7 @@
         <item>"wifi,1,1,2,-1,true"</item>
         <item>"bluetooth,7,7,0,-1,true"</item>
         <item>"ethernet,9,9,9,-1,true"</item>
+3c25388... Enable Ambient Display
     </string-array>
 
     <!-- This string array should be overridden by the device to present a list of radio
@@ -51,6 +53,9 @@
         <item>"7,1"</item>
         <item>"9,1"</item>
     </string-array>
+
+    <!-- Screen brightness when dozing -->
+    <integer name="config_screenBrightnessDoze">17</integer>
 
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          USB interfaces.  If the device doesn't want to support tething over USB this should
@@ -210,6 +215,7 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">false</bool>
 
+<<<<<<< HEAD
 
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin.
@@ -240,6 +246,7 @@
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
+3c25388... Enable Ambient Display
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
