@@ -21,11 +21,21 @@
     <string name="velocity_tracker_impl" translatable="false">noisy</string>
 
     <!-- Show camera affordance on Keyguard -->
-    <bool name="config_keyguardShowCameraAffordance">false</bool>
+    <bool name="config_keyguardShowCameraAffordance">true</bool>
 
     <!-- Disable expensive shadows -->
     <bool name="config_recents_fake_shadows">true</bool>
 
     <!-- Use hardware layers in recents -->
     <bool name="config_recents_use_hardware_layers">true</bool>
+
+    <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Doze: should the pickup sensor be used as a pulse signal? -->
+    <bool name="doze_pulse_on_pick_up">true</bool>
+
+    <!-- Doze: shake accelerometer threshold -->
+    <integer name="doze_shake_accelerometer_threshold">10</integer>
+
 </resources>
