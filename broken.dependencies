@@ -3,7 +3,7 @@
     "remote":     "github",
     "repository": "roguesyko/reaper_kernel_asus_grouper",
     "target_path": "kernel/asus/grouper",
-    "branch":      "cm-12.0"
+    "branch":      "cm-12.1"
   },
   {
    "remote":      "github",
