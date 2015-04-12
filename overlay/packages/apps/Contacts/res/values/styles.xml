@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PeopleTheme1" parent="@android:style/Theme.Material">
+        <item name="android:colorAccent">#0067ff</item>
+        </style>
+     <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">#0067ff</item>
+     </style>
+</resources>
