@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="ltgreen">#0067ff</color>
-    <color name="theme_accent">#0067ff</color>
-    <color name="switch_accent_color">#0067ff</color>
-    <color name="exposed_datachartfillcolor">#0067ff</color>
-    <color name="ga_gesture_color">#0067ff</color>	
-</resources>
