@@ -277,13 +277,8 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-<<<<<<< HEAD
-    <!--integer name="config_deviceHardwareKeys">64</integer>-->
-    <!--integer name="config_deviceHardwareWakeKeys">64</integer>-->
-=======
-    <integer name="config_deviceHardwareKeys">64</integer>
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
->>>>>>> 432965eaf7fbad02e1b6b14d3dea9dc8bdd1477e
+    <!-- integer name="config_deviceHardwareKeys">64</integer -->
+    <!-- integer name="config_deviceHardwareWakeKeys">64</integer -->
 
     <!-- enabling WifiDisplay(Miracast Source)-->
     <bool name="config_enableWifiDisplay">true</bool>
