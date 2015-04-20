@@ -1,7 +1,7 @@
 [
   {
     "remote":     "github",
-    "repository": "roguesyko/Reaper_kernel_grouper",
+    "repository": "roguesyko/Reaper_kernel",
     "target_path": "kernel/asus/grouper",
     "branch":      "lp5.1"
   },
