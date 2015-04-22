@@ -32,3 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/grouper/overlay
+    
+# Speed up art
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.image-dex2oat-filter=everything \
+dalvik.vm.dex2oat-filter=everything    
