@@ -1,9 +1,9 @@
 [
   {
     "remote":     "github",
-    "repository": "CyanogenMod/android_kernel_asus_grouper",
+    "repository": "roguesyko/Reaper_kernel",
     "target_path": "kernel/asus/grouper",
-    "branch":      "cm-12.1"
+    "branch":      "lp5.1"
   },
   {
    "remote":      "github",
