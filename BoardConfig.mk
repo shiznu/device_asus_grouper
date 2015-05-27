@@ -40,7 +40,7 @@ include device/asus/grouper/BoardConfigCommon.mk
 
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.0/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.1/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 MALLOC_IMPL := dlmalloc
