@@ -36,6 +36,9 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a9
 
+BOARD_GLOBAL_CFLAGS := --param l1-cache-size=32 --param l1-cache-line-size=32 --param l2-cache-size=1024
+BOARD_GLOBAL_CPPFLAGS := --param l1-cache-size=32 --param l1-cache-line-size=32 --param l2-cache-size=1024
+
 TARGET_USERIMAGES_USE_EXT4 := true
 ifeq ($(HOST_OS),linux)
 TARGET_USERIMAGES_USE_F2FS := true
