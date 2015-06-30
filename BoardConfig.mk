@@ -43,4 +43,7 @@ TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.1/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
+# Keepin it block based for the sake of SuperSu
+BLOCK_BASED_OTA=true
+
 MALLOC_IMPL := dlmalloc
