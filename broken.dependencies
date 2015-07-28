@@ -37,7 +37,7 @@
   },
   {
    "remote":      "github",
-   "repository":  "TheMuppets/proprietary_vendor_nxp
+   "repository":  "TheMuppets/proprietary_vendor_nxp"'
    "target_path": "vendor/nxp",
    "branch":      "cm-12.1"
   },
