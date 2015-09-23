@@ -40,7 +40,7 @@ include device/asus/grouper/BoardConfigCommon.mk
 
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-5.1/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-5.2/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Keepin it block based for the sake of SuperSu
